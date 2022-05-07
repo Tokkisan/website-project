@@ -1,10 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Jura:600');
 h1 {
-  font-family: Arial, sans-serif;
+  font-family: 'Trebuchet Ms', sans-serif;
   font-weight: bold;
-  color: #8b4ee6;
-}
-
-body {
-  background-color: #93b2e6
   
 }
+h2 {
+  font-family: 'Trebuchet Ms', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  padding: 20px;
+}
+.image1 {
+  max-width: 50%;
+  height: auto;
+  float: left;
+}
+center {
+  font-family: 'Trebuchet Ms', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.row {
+    width: 100%;
+    padding: px;
+    
+ }
+ .jobicons {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+
+ }

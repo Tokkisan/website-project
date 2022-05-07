@@ -36,9 +36,9 @@ center {
     padding: 5px;
 
  }
-.intext {
-    margin:auto;
-    text-alig: left;
-    width:60%;
-    font-size: 50px;
-  }
+ .intext {
+   font-family: 'Trebuchet Ms', sans-serif;
+   font-size: 50px;
+   text-align:start;
+   padding: 0px;
+ }

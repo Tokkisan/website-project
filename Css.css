@@ -10,8 +10,8 @@ h1 {
 h2 {
   font-family: 'Trebuchet Ms', sans-serif;
   font-weight: normal;
-  width:80%
-  font-size: 20px;
+  width: 80%;
+  font-size: 30px;
 }
 img {
   max-width: 100%;
@@ -30,14 +30,12 @@ center {
   font-weight: bold;
   font-size: 30px;
 }
-.row {
-   text-align: center;
-   width: 100%;
-   padding: 0px;
-   margin:auto;
-    
- }
+.container{
+    text-align:center;
+   
+}
  .jobicons {
+   display:inline-block;
     max-width: 100%;
     height: auto;
     padding: 5px;
@@ -50,3 +48,63 @@ center {
    text-align: center;
    margin: auto;
  }
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
+  width: 37.5em;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
+}
+.ffxivcrafting {
+  width: 55%;
+  height: auto;
+  float: left;
+}
+h3 {
+  font-family: 'Trebuchet Ms', sans-serif;
+  color: #FFF3E7;
+  text-align: left;
+  margin: auto;
+  width: 40%;
+  float: right;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: normal;
+
+}
+.fflink {
+  font-family: 'Trebuchet Ms', sans-serif;
+  color: #FFF3E7;
+  font-size: 50px;
+}
+.garland {
+  width: 55%;
+  height: auto;
+  float: left;
+}
+.univ {
+  width: 55%;
+  height: auto;
+  float: left;
+}
+.tc {
+  width: 55%;
+  height: auto;
+  float: left;
+}
+h4 {
+  font-family: 'Trebuchet Ms', sans-serif;
+  color: #FFF3E7;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  font-size: 15px;
+  font-weight: normal;
+
+}
